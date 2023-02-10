@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "deliveroo api",
+    "builds":[
+        { "src": "server.js", "dest": "@vercel/node" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/server.js" }
+    ]
+}
